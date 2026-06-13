@@ -1,0 +1,15 @@
+{
+  "strategy": "tls_split",
+  "split_pos": "1",
+  "split_mode": "split",
+  "fake_ttl": 8,
+  "repeats": 3,
+  "window_size": 1234,
+  "ip_version": "ip",
+  "protocol": "tls",
+  "1_port_range": 80,
+  "2_port_range": 443,
+  "fooling_mode": "none",
+  "fooling_args_1": 1000,
+  "fooling_args_2": 5000
+}
